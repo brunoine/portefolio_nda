@@ -1,0 +1,253 @@
+head:
+  title: "NDA"
+  favicon: "img/who-am-i/nda.png"
+
+# showcase
+showcase:
+  enable: true
+  title: "Núcleo de Dados Administrativos"
+  subtitle: "SDAE / DRGD"
+  description: "Criado em 2020, este Nucleo é uma lufada de ar fresco no INE"
+  image:
+    x: "img/showcase/data-science.gif"
+    _2x: "img/showcase/data-science.gif"
+  imageMobile:
+    x: "img/showcase/data-science.gif"
+    _2x: "img/showcase/data-science.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contacte o NDA"
+    URL: "mailto:joao.pocas@ine.pt"
+    
+  socialLinks:
+    - icon: "github"
+      URL: "https://github.com/brunoine"
+
+# about
+about:
+  enable: true
+  title: "Quem somos?"
+  content: 
+    <p class="lead">
+    O NDA é responsável por <strong>identificar novas fontes de dados</strong> para a produção estatística, trabalhando em conjunto com o DMSI e outras unidades do INE. Desempenha também um papel crucial na integração desses dados administrativos na infraestrutura do INE.
+    </p>
+    <p class="lead">Além disso, o NDA define modelos de validação, analisa a consistência e coerência dos dados provenientes de várias fontes e garante que esses dados sejam disponibilizados adequadamente para uso nas etapas subsequentes do processo produtivo. Também avalia e testa novas fontes de dados, visando melhorar a qualidade da produção estatística e desenvolver novos produtos estatísticos, em colaboração com outros núcleos e serviços do DRGD e unidades orgânicas do INE.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "GitLab"
+    URL: "https://git.ine.pt/nda"
+  image:
+    x: "img/who-am-i/nda.png"
+    _2x: "img/who-am-i/nda.png"
+
+# experience
+experience:
+  enable: false
+  title: "Experience"
+  description: "Over 15+ years of experience working with companies from all over the world. I design & develop data science products to help businesses increase profitability and improve customer experience."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
+  items:
+    - title: "Director of Product Engineering & Market Development"
+      company: "Bonney Forge"
+      duration: "Jan 2017 - Aug 2018"
+
+    - title: "Manager of Sales Engineering"
+      company: "Bonney Forge"
+      duration: "Mar 2014 - Jan 2017"
+
+    - title: "Manager of Product Engineering"
+      company: "Bonney Forge"
+      duration: "Nov 2011 - Mar 2014"
+
+# education
+education:
+  enable: true
+  title: "Projetos"
+  items:
+    - university: "E-fatura"
+      year: "2021-2023"
+      degree: "Tratamento de qualidade no e-fatura: outliers, missings, … e imputação."
+      
+    - university: "IRS"
+      year: "2021-2023"
+      degree: "Integração dos dados do IRS na construção da Base de População Residente e na transição para o modelo censitário baseado em dados administrativos."
+
+    - university: "DMR-AT"
+      year: "2022-2024"
+      degree: "Análise entre Declarações Mensais de Remunerações (AT) e IE (Inquérito ao Emprego)."
+      
+    - university: "CI"
+      year: "2023-2024"
+      degree: "Deteção de anomalias nos dados do Comércio Internacional"
+
+
+
+# Client & Work
+client_and_work:
+  title: "Portefólio"
+  enable: true
+  
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "e-fatura 2024"
+      description: "Esta aplicação faz um resumo dos daddos administrativos do e-fatura disponibilizados mensalmente aos utilizadores do INE. Disponibiliza também um resumo dos tratamentos efetuados."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://shiny.ine.pt/d/efat/"
+      image:
+        x: "img/works/efatura.jpg"
+        _2x: "img/works/efatura.jpg"
+      is_even: true
+
+    - title: "anomalias EXTRA"
+      description: "Esta aplicação foi desenvolvida para auxiliar o tratamento de anomalias dos dados de transações Extra-comunitárias do Comercio Internacional."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://shiny.ine.pt/d/extra/"
+      image:
+        x: "img/works/extra.jpg"
+        _2x: "img/works/extra.jpg"
+      is_even: false
+      
+    - title: "½ houR"
+      description: "a iniciativa '1/2 houR' tem como objetivo incentivar a partilha de experiências no uso do R em contexto de trabalho no INE."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://hour-dev.ine.pt"
+      image:
+        x: "img/works/half-hour.png"
+        _2x: "img/works/half-hour.png"
+      is_even: true
+
+
+# testimonial
+testimonial:
+  enable: true
+  title: "A equipa"
+  items:
+  
+    - name: "João Poças"
+      position: "Head of Unit"
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec justo vel urna tincidunt tincidunt. Sed euismod, nunc a tincidunt tincidunt, libero sapien tincidunt odio, id bibendum libero elit non libero. Sed euismod, nunc a tincidunt tincidunt, libero sapien tincidunt odio, id bibendum libero elit non libero."
+      image:
+        x: "img/testimonials/justin.jpg"
+        _2x: "img/testimonials/justin.jpg"
+        
+    - name: "Bruno Lima"
+      position: "Statistics Specialist"
+      content: "Entrei para o INE em janeiro de 2021, mais especificamente para o NDA. A minha ferramenta de trabalho deeleição é o R, mas também trabalho em PL/SQL. Atualmente, estou envolvido em projetos chave, como o e-fatura e o IRS. Além disso, desenvolvo aplicações Shiny, tornando os dados acessíveis e interativos para outros utilizadores."
+      image:
+        x: "img/testimonials/blima.jpg"
+        _2x: "img/testimonials/blima.jpg"
+
+    - name: "Ricardo Cotrim"
+      position: "Statistics Specialist"
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec justo vel urna tincidunt tincidunt. Sed euismod, nunc a tincidunt tincidunt, libero sapien tincidunt odio, id bibendum libero elit non libero. Sed euismod, nunc a tincidunt tincidunt, libero sapien tincidunt odio, id bibendum libero elit non libero."
+      image:
+        x: "img/testimonials/mohana.jpg"
+        _2x: "img/testimonials/mohana.jpg"
+  
+    - name: "Alexandre Cunha"
+      position: "Statistics Specialist"
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec justo vel urna tincidunt tincidunt. Sed euismod, nunc a tincidunt tincidunt, libero sapien tincidunt odio, id bibendum libero elit non libero. Sed euismod, nunc a tincidunt tincidunt, libero sapien tincidunt odio, id bibendum libero elit non libero."
+      image:
+        x: "img/testimonials/mohana.jpg"
+        _2x: "img/testimonials/mohana.jpg"
+        
+    - name: "João Garra"
+      position: "Statistics Specialist"
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec justo vel urna tincidunt tincidunt. Sed euismod, nunc a tincidunt tincidunt, libero sapien tincidunt odio, id bibendum libero elit non libero. Sed euismod, nunc a tincidunt tincidunt, libero sapien tincidunt odio, id bibendum libero elit non libero."
+      image:
+        x: "img/testimonials/mohana.jpg"
+        _2x: "img/testimonials/mohana.jpg"
+        
+    - name: "Cristina Ribeiro"
+      position: "Statistics Specialist"
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec justo vel urna tincidunt tincidunt. Sed euismod, nunc a tincidunt tincidunt, libero sapien tincidunt odio, id bibendum libero elit non libero. Sed euismod, nunc a tincidunt tincidunt, libero sapien tincidunt odio, id bibendum libero elit non libero."
+      image:
+        x: "img/testimonials/mohana.jpg"
+        _2x: "img/testimonials/mohana.jpg"
+        
+    - name: "Tiago Henrique"
+      position: "Statistics Specialist"
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec justo vel urna tincidunt tincidunt. Sed euismod, nunc a tincidunt tincidunt, libero sapien tincidunt odio, id bibendum libero elit non libero. Sed euismod, nunc a tincidunt tincidunt, libero sapien tincidunt odio, id bibendum libero elit non libero."
+      image:
+        x: "img/testimonials/mohana.jpg"
+        _2x: "img/testimonials/mohana.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contacto"
+    
+  image:
+    x: "img/who-am-i/ine_logo_principal_metade.png"
+    _2x: "img/who-am-i/ine_logo_principal_metade.png"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'mailto:joao.pocas@ine.pt'
+    
+  phone:
+    title: "Telefone"
+    number: "+351 226072000"
+  email:
+    title: "E-mail"
+    email: '<a href="mailto:joao.pocas@ine.pt">joao.pocas@ine.pt</a>'
+  address:
+    title: "Morada"
+    address: "Edifício Scala – Rua de Vilar, 235 | 4050-626 Porto"
+  
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
